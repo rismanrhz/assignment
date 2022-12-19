@@ -12,7 +12,7 @@ const AddPhoto = () => {
     e.preventDefault();
     let today = new Date()
     e.preventDefault();
-    fetch(`https://gallery-app-server.vercel.app/photos/`, {
+    fetch(`https://gallery-app-server.vercel.app/photos`, {
       method:"POST",
       headers: {
         "Content-Type":"application/json"
